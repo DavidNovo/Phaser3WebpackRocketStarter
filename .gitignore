@@ -61,4 +61,4 @@ typings/
 .next
 
 # the files build by the build process
-./build
+build/
