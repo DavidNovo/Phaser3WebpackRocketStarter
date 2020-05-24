@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 1087:
+/***/ 1450:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45,45 +45,45 @@ var SimpleScene = exports.SimpleScene = function (_Phaser$Scene) {
 
 /***/ }),
 
-/***/ 447:
+/***/ 531:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _messager = __webpack_require__(448);
+var _messager = __webpack_require__(532);
 
-__webpack_require__(213);
+__webpack_require__(255);
 
-var _simpleScene = __webpack_require__(1087);
+var _simpleScene = __webpack_require__(1450);
 
 (0, _messager.showMessage)('Somebody else did this work! Boo');
 
 var gameConfig = {
-    width: 680,
-    height: 400,
-    scene: _simpleScene.SimpleScene
+  width: 680,
+  height: 400,
+  scene: _simpleScene.SimpleScene
 };
 new Phaser.Game(gameConfig);
 
 /***/ }),
 
-/***/ 448:
+/***/ 532:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 exports.showMessage = showMessage;
 function showMessage(messageText) {
-    var messageE1 = document.createElement('div');
-    messageE1.textContent = messageText;
-    document.body.appendChild(messageE1);
+  var messageE1 = document.createElement('div');
+  messageE1.textContent = messageText;
+  document.body.appendChild(messageE1);
 }
 
 /***/ })
 
-},[447]);
+},[531]);
